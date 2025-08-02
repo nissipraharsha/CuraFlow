@@ -35,7 +35,7 @@ export const dbConnection = () => {
       
       if (error.message.includes("SSL")) {
         console.error("🔐 SSL Issue: Check connection string format");
-        console.error("💡 Try updating MONGO_URI to: mongodb+srv://HOSPITAL:HOSPITAL@cluster0.zi949pc.mongodb.net/HOSPITAL_MANAGEMENT_SYSTEM?retryWrites=true&w=majority");
+        console.error("💡 Try updating MONGO_URI to: [REMOVED - Use environment variables, do not commit secrets]");
       }
       
       // Retry connection after 15 seconds

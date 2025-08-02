@@ -255,7 +255,7 @@ Hospital-Management-System-Web-Application/
 ```env
 PORT=4000
 NODE_ENV=development
-MONGO_URI=mongodb+srv://...
+MONGO_URI=[REMOVED - Use environment variables, do not commit secrets]
 JWT_SECRET_KEY=your-secret-key
 JWT_EXPIRES=7d
 CLOUDINARY_CLOUD_NAME=your-cloud-name

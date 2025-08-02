@@ -33,12 +33,12 @@ Your application is failing to connect to MongoDB Atlas because the IP address i
 
 Your current connection string:
 ```
-mongodb+srv://HOSPITAL:HOSPITAL@cluster0.zi949pc.mongodb.net/?retryWrites=true
+mongodb+srv://[REMOVED - Use environment variables, do not commit secrets]
 ```
 
 **Make sure to add the database name:**
 ```
-mongodb+srv://HOSPITAL:HOSPITAL@cluster0.zi949pc.mongodb.net/HOSPITAL_MANAGEMENT_SYSTEM?retryWrites=true&w=majority
+mongodb+srv://[REMOVED - Use environment variables, do not commit secrets]
 ```
 
 ### 4. **Environment Variables in Render**
@@ -46,7 +46,7 @@ mongodb+srv://HOSPITAL:HOSPITAL@cluster0.zi949pc.mongodb.net/HOSPITAL_MANAGEMENT
 Update your Render environment variables:
 
 ```
-MONGO_URI=mongodb+srv://HOSPITAL:HOSPITAL@cluster0.zi949pc.mongodb.net/HOSPITAL_MANAGEMENT_SYSTEM?retryWrites=true&w=majority
+MONGO_URI=[REMOVED - Use environment variables, do not commit secrets]
 ```
 
 ### 5. **Alternative: Use MongoDB Atlas App Services**
